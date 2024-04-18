@@ -1,0 +1,22 @@
+{
+  "name": "automationpractic",
+  "version": "1.0.0",
+  "description": "automationpractice test plan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/k3ba2/automationpractice.git"
+  },
+  "author": "Jakub Kędziora",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.11.0"
+  }
+}

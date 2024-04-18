@@ -1,0 +1,21 @@
+{
+  "correctUser": {
+    "login": "jan.testowy123@test.pl",
+    "pass": "123456789"
+  },
+  "invalidUser": {
+    "badEmail": {
+      "case": "badEmail",
+      "login": "jan.testowy123test.pl",
+      "pass": "123456789",
+      "msg": "Invalid email address."
+    },
+      "badPass": {
+        "case": "badPass",
+        "login": "jan.testowy123@test.pl",
+        "pass": "123456888",
+        "msg": "Authentication failed."  
+   }
+
+  }
+}
